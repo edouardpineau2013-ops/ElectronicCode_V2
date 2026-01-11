@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Audiowide";
+    src: url("./meta/fonts/Audiowide-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Orbitrion";
+    src: url("./meta/fonts/Orbitron-VariableFont_wght.ttf");
+}
+
+@keyframes alternateColor {
+    from {
+        color: #ffa600;
+    }
+    to {
+        color: #00fff7;
+    }
+}
+
+h1 {
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    animation: alternateColor 10s infinite alternate;
+    margin-bottom: 50px;
+}
+
+.description {
+    font-family: "Orbitrion", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.images-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-indicateur {
+    width: 24%;
+    margin: 0.5%;
+}
+
+.video-indicateur {
+    width: 24%;
+    margin: 0.5%;
+}

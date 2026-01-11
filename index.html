@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<body>
+    <h1>ElectronicCode</h1>
+    <h2 class="sous-titre">développeur, maker et printer...</h2>
+
+    <div class="about">
+        <h2 class="a-propos">A propos...</h2>
+        <div class="logos">
+            <a href="https://youtube.com/@ElectronicCode" target="_blank">
+                <p class="texte-logos">Ma chaine youtube</p>
+                <img src="./meta/images/youtube-brands-solid-full.svg" alt="logo youtube" class="logo">
+            </a>
+            <a href="https://www.reddit.com/r/ElectronicCode/" target="_blank">
+                <p class="texte-logos">Mon reddit</p>
+                <img src="./meta/images/reddit-brands-solid-full.svg" alt="logo reddit" class="logo">
+            </a>
+            <a href="https://discord.gg/Hmfp33V3" target="_blank">
+                <p class="texte-logos">Mon discord</p>
+                <img src="./meta/images/discord-brands-solid-full.svg" alt="logo discord" class="logo">
+            </a>
+            <a href="mailto:electroniccode.monsite@gmail.com" target="_blank" onclick="copierEmail()">
+                <p class="texte-logos">Contact</p>
+                <img src="./meta/images/envelope-regular-full.svg" alt="logo email" class="logo">
+            </a>
+        </div>
+        <p id="copié" class="copié"></p>
+    </div>
+   
+    
+
+    <form class="connexion" onsubmit="verifierCle(event)">
+        <h2>clé d'accès</h2>
+        <p class="cle-d-acces">Entrer ma clé d'accès</p>
+        <input type="password" placeholder="Clé d'accès" required class="password" id="cle">
+        <br>
+        <button type="submit" class="submit">Se connecter</button>
+        <p id="resultat"></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
