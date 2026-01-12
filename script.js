@@ -11,7 +11,7 @@ function verifierCle(event) {
         resultat.style.color = "green";
 
         // Redirection vers la zone secrète
-        window.location.href = "indicateur-de-marée.html";
+        window.location.href = "indicateur-de-maree.html";
     } else {
         resultat.innerHTML = "❌ Clé incorrecte";
         resultat.style.color = "red";
@@ -21,4 +21,5 @@ function verifierCle(event) {
 function copierEmail() {
     navigator.clipboard.writeText("electroniccode.monsite@gmail.com");
     copié.innerHTML = "✅ L'email à été copié dans le presse-papier";
+
 }
