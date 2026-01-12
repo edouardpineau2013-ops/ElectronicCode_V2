@@ -77,7 +77,30 @@ h1 {
     margin-bottom: 0;
     text-align: center;
 }
-    
+
+.titre-creations {
+    font-family: "Orbitrion", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.tableau-creations {
+    border-collapse: collapse;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    font-family: "Orbitrion", sans-serif;
+}
+
+.tableau-creations th {
+    background-color: #f5f5f5;
+    padding: 8px;
+}
 
 .connexion {
     background-color: #f5f5f5;
