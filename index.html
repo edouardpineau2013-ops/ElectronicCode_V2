@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
 <body>
-    <h1>ElectronicCode</h1>
-    <h2 class="sous-titre">développeur, maker et printer...</h2>
+    <div class="en-tête">
+        <h1>ElectronicCode</h1>
+        <h2 class="sous-titre">développeur, maker et printer...</h2>
+    </div>
+    
 
     <div class="about">
         <h2 class="a-propos">A propos...</h2>
@@ -33,9 +36,33 @@
         </div>
         <p id="copié" class="copié"></p>
     </div>
-   
-    
 
+    <div class="créations">
+        <h2 class="titre-creations">Historique de mes créations</h2>
+        <table class="tableau-creations" border="1">
+            <tr>
+                <th>date de création</th>
+                <th>projet</th>
+                <th>clé d'accès</th>
+            </tr>
+            <tr>
+                <td>09/08/2025</td>
+                <td>indicateur de marée</td>
+                <td>⚠️clé d'accès requise pour ce projet⚠️</td>
+            </tr>
+            <tr>
+                <td>10/12/2025</td>
+                <td>blog de famille des delaportes</td>
+                <td><a href="https://blog-de-noel-des-delaporte.vercel.app">blog-de-noel-des-delaporte.vercel.app</a></td>
+            </tr>
+            <tr>
+                <td>à venir...</td>
+                <td>à venir...</td>
+                <td>à venir...</td>
+            </tr>
+        </table>
+    </div>
+    
     <form class="connexion" onsubmit="verifierCle(event)">
         <h2>clé d'accès</h2>
         <p class="cle-d-acces">Entrer ma clé d'accès</p>
